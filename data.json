@@ -1,0 +1,76 @@
+{
+    "personal_information": {
+        "name": "Pagna So",
+        "profile_picture": "/static/images/profile.jpg",
+        "description": "I am a full-stack software developer with high problem solving skill and years of experience in this career.",
+        "position": "Full-Stack Software Developer",
+        "skills": ["HTML", "CSS", "JavaScript", "JQuery", "Angular", "ReactJS", "Node.js", "PHP", "SQL"],
+        "contacts": ["(+855)89 372 723", "so.pagna@osf-commerce.com"],
+        "social_media_accounts": [
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/pagna-so-31ba88118/"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/sopagna-osf"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/pagna_so"
+            }
+        ],
+        "elevator_pitch": "I am a Software Developer with creative attitude to problem solving. My biggest challenge and achievement is participating in most of the system development process, and developing a fully functional system which has been used widely at many public hospital in my local country. I'm sure I can use my experience and my expertise to achieve great results in the fields my career."
+    },
+    "portfolio": {
+        "title": "Let's make the web great together!",
+        "description": "This portfolio is all about the work I have accomplished. This project is build with Node.js and Express which make a powerful server side for web application."
+    },
+    "projects": [
+        {
+            "id": "INDTR-15626",
+            "project_name": "Random Quote Generator",
+            "description": "This project is about displaying a random quote from a specified lists, random background color. And it also changed the quote from time to time in specify amount of time.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sopagna-osf.github.io/INDTR-15626-unit-1-project-random-quote-generator/",
+            "github_link": "https://github.com/sopagna-osf/INDTR-15626-unit-1-project-random-quote-generator",
+            "image_urls": ["/static/images/indtr-15626/550x550.jpg", "/static/images/indtr-15626/1200x550-1.jpg", "/static/images/indtr-15626/1200x550-2.jpg"]
+        },
+        {
+            "id": "INDTR-15628",
+            "project_name": "List Pagination and Filter",
+            "description": "This project is about listing the list of students with pagination, and as well as allow the user to filter the students with either their name or email.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sopagna-osf.github.io/INDTR-15628-unit-2-project-list-pagination-and-filtering/",
+            "github_link": "https://github.com/sopagna-osf/INDTR-15628-unit-2-project-list-pagination-and-filtering",
+            "image_urls": ["/static/images/indtr-15628/550x550.jpg", "/static/images/indtr-15628/1200x550-1.jpg", "/static/images/indtr-15628/1200x550-2.jpg", "/static/images/indtr-15628/1200x550-3.jpg"]
+        },
+        {
+            "id": "INDTR-15630",
+            "project_name": "Interactive Form",
+            "description": "This project is about enhancing the registration form with form validation, and displaying additional or required information to the user only when needed.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+            "live_link": "https://sopagna-osf.github.io/INDTR-15630-project-interactive-form/",
+            "github_link": "https://github.com/sopagna-osf/INDTR-15630-project-interactive-form",
+            "image_urls": ["/static/images/indtr-15630/550x550.jpg", "/static/images/indtr-15630/1200x550-1.jpg", "/static/images/indtr-15630/1200x550-2.jpg"]
+        },
+        {
+            "id": "INDTR-15632",
+            "project_name": "Game Show App",
+            "description": "This is a guessing game called Phrase Hunter which generate a random phrase, and the player tries to guess the hidden letters by clicking on the on screen keyboard, or typing on the physical computer keyboard.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sopagna-osf.github.io/INDTR-15632-unit-4-project-game-show-app/",
+            "github_link": "https://github.com/sopagna-osf/INDTR-15632-unit-4-project-game-show-app",
+            "image_urls": ["/static/images/indtr-15632/550x550.jpg", "/static/images/indtr-15632/1200x550-1.jpg", "/static/images/indtr-15632/1200x550-2.jpg", "/static/images/indtr-15632/1200x550-3.jpg"]
+        },
+        {
+            "id": "INDTR-15634",
+            "project_name": "Public API Requests",
+            "description": "This application displays the list of employee contacts which are retrieved from Random User Generator API.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+            "live_link": "https://sopagna-osf.github.io/INDTR-15634-unit-5-project-public-api-requests/",
+            "github_link": "https://github.com/sopagna-osf/INDTR-15634-unit-5-project-public-api-requests",
+            "image_urls": ["/static/images/indtr-15634/550x550.jpg", "/static/images/indtr-15634/1200x550-1.jpg", "/static/images/indtr-15634/1200x550-2.jpg", "/static/images/indtr-15634/1200x550-3.jpg"]
+        }
+    ]
+}

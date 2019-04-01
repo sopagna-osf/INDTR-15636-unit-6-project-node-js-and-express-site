@@ -1,0 +1,29 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-about
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1= personal_information.name
+        p.lead.text-light.p-b-20= personal_information.position
+        .portfolio-bio
+          p= personal_information.elevator_pitch
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+        ul
+          each skill in personal_information.skills
+            li= skill
+
+        h6 Contact Info
+        ul
+          each contact in personal_information.contacts
+            li= contact
+
+        each account in personal_information.social_media_accounts
+          a.button.expanded(href=account.url,target='_blank')= account.name
+          
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

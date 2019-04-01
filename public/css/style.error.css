@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html, body, .error-container {
+    height: 100%;
+}
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error {
+    padding: 20px 30px;
+}
+.error h1 {
+    font-size: 7em;
+    font-weight: 400;
+    color: #f18f35;
+}
+.error .message {
+    margin-bottom: 1.2em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.error .stack {
+    font-size: .8em;
+    line-height: 1.4em;
+    margin-bottom: 2.2em;
+}
+.error .back {
+    text-decoration: none;
+    color: #f18f35;
+}
