@@ -50,8 +50,8 @@
             "project_name": "Interactive Form",
             "description": "This project is about enhancing the registration form with form validation, and displaying additional or required information to the user only when needed.",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
-            "live_link": "https://sopagna-osf.github.io/INDTR-15630-project-interactive-form/",
-            "github_link": "https://github.com/sopagna-osf/INDTR-15630-project-interactive-form",
+            "live_link": "https://sopagna-osf.github.io/INDTR-15630-unit-3-project-interactive-form/",
+            "github_link": "https://github.com/sopagna-osf/INDTR-15630-unit-3-project-interactive-form",
             "image_urls": ["/static/images/indtr-15630/550x550.jpg", "/static/images/indtr-15630/1200x550-1.jpg", "/static/images/indtr-15630/1200x550-2.jpg"]
         },
         {
